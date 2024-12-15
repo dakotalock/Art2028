@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-    "react-scripts": "4.0.3"
+    "react-scripts": "5.0.0"  // Ensure this is the latest compatible version
   },
   "browserslist": {
     "production": [
@@ -27,5 +27,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "engines": {
+    "node": "16.x"  // Specify the Node.js version that is compatible with your project
+  },
+  "config": {
+    "react": {
+      "version": "18"  // Specify the React version if required
+    }
   }
 }
